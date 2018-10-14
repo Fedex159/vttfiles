@@ -1,0 +1,21 @@
+<div class="container">
+<video controls crossorigin playsinline poster="http://127.0.0.1:8543/stream?hash=4d494b80dc6fe773b2cee710b15f60a6cbb51d78&amp;file=0" id="player">
+                <!-- Video files -->               
+                <source src="http://127.0.0.1:8543/stream?hash=4d494b80dc6fe773b2cee710b15f60a6cbb51d78&amp;file=0" type="video/mp4" size="720">                
+
+                  <!-- Caption files -->
+                <track kind="captions" label="Spanish" srclang="es" src="https://raw.githubusercontent.com/Fedex159/vttfiles/master/The.Commuter.2018.1080p.BluRay.x264-%5BYTS.AM%5D%20%5BSubtitleTools.com%5D.vtt"
+                    default>               
+
+                <!-- Fallback for browsers that don't support the <video> element -->
+                <a href="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4" download>Download</a>
+            </video>
+  
+  <div class="actions">
+    <button type="button" class="btn js-play">Play</button>
+    <button type="button" class="btn js-pause">Pause</button>
+    <button type="button" class="btn js-stop">Stop</button>
+    <button type="button" class="btn js-rewind">Rewind</button>
+    <button type="button" class="btn js-forward">Forward</button>
+  </div>
+</div>

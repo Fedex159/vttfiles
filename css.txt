@@ -1,0 +1,29 @@
+/* This is purely for the demo */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.plyr {
+  border-radius: 4px;
+  margin-bottom: 15px;  
+}
+
+.plyr:-webkit-full-screen .plyr__captions {
+    font-size: 40px;
+    color: rgb(255, 255, 0);  
+    
+}
+
+.plyr__captions {
+  font-size: 40px;
+  color: rgb(255, 255, 0);   
+}
+
+.plyr__captions span {
+    -webkit-box-decoration-break: clone;
+    line-height: 0%;
+    white-space: pre-wrap;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+    padding: 0.2em 0.5em;
+}
