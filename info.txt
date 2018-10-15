@@ -3,3 +3,5 @@ https://codepen.io/sampotts/pen/jARJYp
 http://rogerdudler.github.io/git-guide/index.es.html
 
 https://subtitletools.com/convert-to-vtt-online
+
+https://gist.github.com/denilsonsa/aeb06c662cf98e29c379#file-play_local_video_with_vtt_subtitles-html
